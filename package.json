@@ -1,8 +1,8 @@
 {
-  "name": "golf-score-tracker",
+  "name": "typescript-react-webpack-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack serve --mode development --open",

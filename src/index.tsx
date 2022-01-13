@@ -5,4 +5,9 @@ export const App: React.FC = () => {
   return <div>Hello World</div>
 }
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('app')
+)
